@@ -53,8 +53,8 @@ Below is the functional block diagram mapping power flow and telemetry loops:
 
 ![System Architecture Block Diagram](docs/assets/system-block-diagram.png)
 
-!(docs/assets/<img width="1878" height="2096" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/eb58ea4a-aa6b-4856-9b19-abb84de5ada4" />
-)
+!/<img width="1878" height="2096" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/eb58ea4a-aa6b-4856-9b19-abb84de5ada4" />
+
 ## 📊 Empirical Prototype Test Results (Table 1)
 
 Recorded during a continuous 240-second charging validation test on the physical prototype:
