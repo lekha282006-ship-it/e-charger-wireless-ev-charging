@@ -53,27 +53,8 @@ Below is the functional block diagram mapping power flow and telemetry loops:
 
 ![System Architecture Block Diagram](docs/assets/system-block-diagram.png)
 
-```mermaid
-flowchart TD
-    Grid["⚡ Utility Grid Supply"] --> PMU["🔀 Power Management & Source Selection (AC-DC / DC-DC)"]
-    Solar["☀️ Solar PV Panel"] --> PMU
-    PMU --> HFI["⚡ High-Frequency Inverter (85 - 150 kHz)"]
-    HFI --> TxCoil["🌀 Transmitter Resonant Coil (Road Bed)"]
-    TxCoil ==>|Wireless Magnetic Coupling| RxCoil["🌀 Receiver Resonant Coil (EV Underside)"]
-    RxCoil --> Rect["🔌 Rectifier & LC Filter"]
-    Rect --> Relay["🔘 Safety Cutoff Relay"]
-    Relay --> BMS["🛡️ Battery Management System"]
-    BMS --> EVLoad["🔋 EV Battery / Load (12V)"]
-
-    MCU["🖥️ Monitoring & Control Unit\n(Arduino Uno + Sensors + LCD)"]
-    Rect -. Sensing .-> MCU
-    BMS -. Voltage/SoC .-> MCU
-    MCU -. Relay Cutoff (80% / 14.1V) .-> Relay
-    MCU -. Telemetry .-> LCD["📺 16x2 I2C LCD Display"]
-```
-
----
-
+!(docs/assets/<img width="1878" height="2096" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/eb58ea4a-aa6b-4856-9b19-abb84de5ada4" />
+)
 ## 📊 Empirical Prototype Test Results (Table 1)
 
 Recorded during a continuous 240-second charging validation test on the physical prototype:
