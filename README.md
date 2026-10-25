@@ -1,4 +1,4 @@
-# E-Charger: Resonant Wireless EV Charging System
+# E-Charger: Wireless EV Charging System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform: Arduino Uno](https://img.shields.io/badge/Platform-Arduino%20Uno-00979D.svg?logo=arduino)](firmware/)
