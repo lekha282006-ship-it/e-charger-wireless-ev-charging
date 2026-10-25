@@ -1,0 +1,10 @@
+Time(s),Voltage(V),Battery(%),Relay,Status
+0,11.8,45,OFF,Not Charging
+30,12.1,48,ON,Charging Started
+60,12.4,52,ON,Charging
+90,12.7,56,ON,Charging
+120,13.0,60,ON,Charging
+150,13.3,65,ON,Charging
+180,13.6,70,ON,Charging
+210,13.9,75,ON,Charging
+240,14.1,80,OFF,Charging Completed
